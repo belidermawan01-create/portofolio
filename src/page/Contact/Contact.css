@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #5d5fef;
+  --primary-color: #da3394 ;
   --bg-light: #f8faff;
 }
 
@@ -15,7 +15,7 @@
 
 .badge-collab {
   display: inline-block;
-  background: #eef2ff;
+  background: #da3394 ;
   color: var(--primary-color);
   padding: 6px 16px;
   border-radius: 50px;
@@ -66,7 +66,7 @@
 }
 
 .custom-input:focus {
-  box-shadow: 0 0 0 3px rgba(93, 95, 239, 0.1);
+  box-shadow: #da3394 ;
   border-color: var(--primary-color);
 }
 
