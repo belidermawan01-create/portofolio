@@ -27,7 +27,7 @@ const Who = () => {
         <h5 className="text-accent mb-0">Programmer</h5>
       </div>
       <p className="who-text text-dark">
-        I am an aspiring Fullstack Developer with a strong interest in building modern web applications.
+        I am Fullstack Developer with a strong interest in building modern web applications.
       </p>
     </Col>
 
