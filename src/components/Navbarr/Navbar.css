@@ -1,0 +1,14 @@
+.nav-link-custom {
+  color: black !important;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  color: #da3394 !important;
+}
+
+.active-link {
+  color: #da3394 !important;
+}

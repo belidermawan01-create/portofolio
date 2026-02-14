@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Website Sekolah",
+    "description": "Website profil sekolah modern menggunakan React."
+  },
+  {
+    "id": 2,
+    "title": "Dashboard Admin",
+    "description": "Dashboard admin dengan fitur CRUD lengkap."
+  },
+  {
+    "id": 3,
+    "title": "Toko Online",
+    "description": "E-commerce sederhana dengan fitur keranjang."
+  }
+]

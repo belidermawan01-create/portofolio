@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #5d5fef;
+  --bg-light: #f8faff;
+}
+
+.contact-page {
+  background-color: var(--bg-light);
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Hero Section */
+.contact-hero {
+  padding: 80px 0 40px;
+}
+
+.badge-collab {
+  display: inline-block;
+  background: #eef2ff;
+  color: var(--primary-color);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.hero-subtitle {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Cards */
+.info-card, .form-card, .social-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-box {
+  background: #f0f3ff;
+  padding: 12px;
+  border-radius: 12px;
+  color: var(--primary-color);
+}
+
+.contact-link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Form Styling */
+.custom-input {
+  background-color: #fcfcfc;
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.custom-input:focus {
+  box-shadow: 0 0 0 3px rgba(93, 95, 239, 0.1);
+  border-color: var(--primary-color);
+}
+
+.btn-send {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* Social Media */
+.social-card .mb-2 svg {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,98 @@
+.projects-wrapper {
+  background: #f8faff;
+  padding: 60px 0;
+}
+
+/* Filter Styling */
+.filter-link {
+  background: white !important;
+  color: #444 !important;
+  border-radius: 30px !important;
+  padding: 8px 25px !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.active-filter {
+  background: #da3394 !important; /* Warna biru sesuai video */
+  color: white !important;
+  border-radius: 30px !important;
+  padding: 8px 25px !important;
+}
+
+/* Card Styling */
+.project-card {
+  border-radius: 25px; /* Sesuaikan tingkat kelengkungan kartu utama */
+  overflow: hidden;
+  transition: 0.4s ease;
+  background: #ffffff;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-img-container {
+  position: relative;
+  /* Padding ini penting agar gambar tidak menempel ke pinggir kartu */
+  padding: 15px 15px 0 15px; 
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px; 
+  border: 3px solid rgba(0, 0, 0, 0.03); 
+}
+
+.category-tag {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: #da3394;
+  color: white;
+  font-size: 11px;
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-weight: 500;
+  z-index: 10;
+}
+.project-tech-top {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tech-text {
+  font-size: 12px;
+  color: #888;
+  background: #f1f3f5;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.project-title {
+  font-weight: 700;
+  color: #2d3436;
+  font-size: 1.1rem;
+}
+
+.project-desc {
+  font-size: 13.5px;
+  line-height: 1.6;
+  height: 65px;
+  overflow: hidden;
+}
+
+.link-detail {
+  text-decoration: none;
+  color: #da3394;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.link-detail:hover {
+  text-decoration: underline;
+}
