@@ -37,7 +37,7 @@ const Who = () => {
               <div className="title-line"></div>
               <h5 className="text-accent mb-0">Programmer</h5> 
             </div>
-            <p className="who-text">
+            <p className="who-text text-dark">
               
   I am an aspiring Fullstack Developer with a strong interest in building modern web applications.
   I have experience working with React for frontend development and Node.js with Express for backend development.
