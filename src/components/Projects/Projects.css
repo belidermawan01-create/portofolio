@@ -3,7 +3,6 @@
   padding: 60px 0;
 }
 
-/* Filter Styling */
 .filter-link {
   background: white !important;
   color: #444 !important;
@@ -14,15 +13,14 @@
 }
 
 .active-filter {
-  background: #da3394 !important; /* Warna biru sesuai video */
+  background: #da3394 !important; 
   color: white !important;
   border-radius: 30px !important;
   padding: 8px 25px !important;
 }
 
-/* Card Styling */
 .project-card {
-  border-radius: 25px; /* Sesuaikan tingkat kelengkungan kartu utama */
+  border-radius: 25px; 
   overflow: hidden;
   transition: 0.4s ease;
   background: #ffffff;
@@ -34,7 +32,6 @@
 
 .project-img-container {
   position: relative;
-  /* Padding ini penting agar gambar tidak menempel ke pinggir kartu */
   padding: 15px 15px 0 15px; 
 }
 

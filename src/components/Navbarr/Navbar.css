@@ -3,6 +3,8 @@
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
+  display: block;
+  padding: 10px 0; 
 }
 
 .nav-link-custom:hover {
@@ -11,4 +13,23 @@
 
 .active-link {
   color: #da3394 !important;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #da3394;
+}
+
+@media (min-width: 768px) {
+  .nav-link-custom {
+    padding: 0; 
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 15px;
+  }
 }

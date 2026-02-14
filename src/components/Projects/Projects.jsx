@@ -56,7 +56,6 @@ const Projects = () => {
   return (
     <section className="projects-wrapper">
       <Container>
-        {/* Filter Tabs */}
         <div className="filter-container mb-5">
           <Nav pills className="justify-content-center gap-2">
             {categories.map((cat) => (

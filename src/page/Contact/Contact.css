@@ -9,7 +9,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* Hero Section */
 .contact-hero {
   padding: 80px 0 40px;
 }
@@ -36,7 +35,6 @@
   margin: 0 auto;
 }
 
-/* Cards */
 .info-card, .form-card, .social-card {
   border-radius: 15px;
   transition: transform 0.3s ease;
@@ -60,7 +58,6 @@
   color: var(--primary-color);
 }
 
-/* Form Styling */
 .custom-input {
   background-color: #fcfcfc;
   border: 1px solid #eee;
@@ -80,7 +77,6 @@
   font-weight: 600;
 }
 
-/* Social Media */
 .social-card .mb-2 svg {
   width: 30px;
   height: 30px;
