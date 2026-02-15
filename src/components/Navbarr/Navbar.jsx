@@ -39,7 +39,7 @@ function NavbarComponent() {
               </NavItem>
               <NavItem>
                 <NavLink to="/work" className={({ isActive }) => isActive ? "nav-link-custom active-link" : "nav-link-custom"} onClick={() => setIsOpen(false)}>
-                  Work
+                  My Skill
                 </NavLink>
               </NavItem>
               <NavItem>
