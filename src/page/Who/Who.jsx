@@ -46,6 +46,7 @@ const Who = () => {
         <span className="text-muted">Years of Experience</span>
         <h2 className="text-dark">1+</h2>
       </div>
+      
       <div className="who-client">
         <span className="text-muted">Client</span>
         <h2 className="text-dark">5+</h2>
