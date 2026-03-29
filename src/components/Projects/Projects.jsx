@@ -5,6 +5,7 @@ import alkautsar from '../../assets/alkautsar.png';
 import petikBlog from '../../assets/petik_blog.png';
 import dasbord from '../../assets/dasbord.png';
 import Portofolio from '../../assets/portofolio.png';
+import Posteridulfitri from '../../assets/kautsar_idulFitri.png';
 
 const projectsData = [
   {
@@ -41,6 +42,12 @@ const projectsData = [
     tech: ["HTML", "Tailwind", "Bootstrap"],
     category: "Company",
     image: "https://via.placeholder.com/400x250"
+  },
+  {
+    title: "Flayer Idul Fitri",
+    tech: ["Figma", "Canva"],
+    category: "News",
+    image: Posteridulfitri
   }
 ];
 
